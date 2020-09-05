@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
     <img alt="Quasar logo" src="~assets/quasar-logo-full.svg" />
     <div class="q-pa-md">
-      <div class="row q-gutter-md">
+      <div class="row q-gutter">
         <div class="col col-md-4 col-sm-12"
         v-for="character in characters"
         :key="character.id"
